@@ -15,15 +15,20 @@ h1{
 p{
     margin-left: 20%;
 }
+
+
+
 #aboutMeImg{
     max-width: 90%;
     max-height: 90%;
 }
 
 .card{
+    
     transition: .8s ease;
     
 }
+
 
 .overlay {
     position: absolute;
@@ -36,8 +41,9 @@ p{
     height: 100%;
     width: 100%;
     opacity: 0;
+
     transition: .5s ease;
-    background-color: rgb(0, 0, 0);
+    background-color: #1b1b1b;
 }
 
 .card:hover .overlay {
