@@ -1,0 +1,27 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "test": "jest -watchAll",
+    "dev": "concurrently \"watchify ./code.js -o bundle.js\" \"python3 -m http.server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dartbill/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dartbill/Portfolio/issues"
+  },
+  "homepage": "https://github.com/dartbill/Portfolio#readme",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "jest": "^28.0.3",
+    "jest-environment-jsdom": "^28.0.2",
+    "watchify": "^4.0.0"
+  }
+}
