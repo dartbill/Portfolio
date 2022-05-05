@@ -2,14 +2,12 @@ const homepageTitle1 = document.querySelector("#homepageTitle1");
 const homepageTitle2 = document.querySelector("#homepageTitle2");
 const body = document.querySelector("body")
 
-body.addEventListener("load", e=>{
+document.addEventListener("DOMContentLoaded", e=>{
 let letter = 0;
 let letter2 = 0;
 const text1 = "Hi, "
 const text2 = "My name is Billie"
 
-
-console.log("hello")
 
 function typeText(){
     if(letter<text1.length){
